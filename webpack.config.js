@@ -78,7 +78,7 @@ module.exports = {
   // our Webpack Development Server config
   devServer: {
     historyApiFallback: true,
-    contentBase: 'src/app',
+    contentBase: 'src',
     publicPath: '/__build__'
   }
 
