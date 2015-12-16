@@ -1,6 +1,6 @@
 {
   "name": "ng2-intro",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "code to accompany lesson on briantroncone.com",
   "main": "",
   "scripts": {
@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "rxjs": "^5.0.0-alpha.14",
-    "angular2": "^2.0.0-alpha.53",
+    "angular2": "^2.0.0-beta.0",
     "es6-shim": "^0.33.13",
     "reflect-metadata": "^0.1.2",
     "zone.js": "^0.5.8",

@@ -14,7 +14,6 @@ var CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
  * Config
  */
 module.exports = {
-  // for faster builds use 'eval'
   devtool: 'source-map',
   debug: true,
 
@@ -66,7 +65,7 @@ module.exports = {
 
   plugins: [
     new CommonsChunkPlugin({ name: 'vendor', filename: 'vendor.js', minChunks: Infinity }),
-    new CommonsChunkPlugin({ name: 'common', filename: 'common.js', minChunks: 2, chunks: ['app'] })
+    new CommonsChunkPlugin({ name: 'common', filename: 'common.js', minChunks: 2, chunks: ['app', 'vendor'] })
   ],
 
   // Other module loader config
