@@ -28,6 +28,7 @@
     "core-js": "^1.2.6"
   },
   "devDependencies": {
+    "babel": "^5.5.8",
     "exports-loader": "0.6.2",
     "expose-loader": "0.7.0",
     "file-loader": "^0.8.4",
@@ -37,10 +38,11 @@
     "raw-loader": "0.5.1",
     "rimraf": "2.4.3",
     "style-loader": "^0.13.0",
-    "url-loader": "^0.5.6",
-    "webpack": "1.12.2",
-    "webpack-dev-server": "^1.12.1",
+    "ts-loader": "^0.7.2",
     "typescript": "^1.7.5",
-    "ts-loader": "^0.7.2"
+    "url-loader": "^0.5.6",
+    "wallaby-webpack": "0.0.10",
+    "webpack": "1.12.2",
+    "webpack-dev-server": "^1.12.1"
   }
 }
