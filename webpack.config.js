@@ -1,4 +1,4 @@
-// Webpack config from AngularClass https://github.com/AngularClass/angular2-webpack-starter
+// Webpack config based on AngularClass https://github.com/AngularClass/angular2-webpack-starter
 
 /*
  * Helper: root(), and rootDir() are defined at the bottom

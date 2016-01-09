@@ -13,3 +13,4 @@ __build__/**
 .webpack.json
 
 .DS_Store
+.idea

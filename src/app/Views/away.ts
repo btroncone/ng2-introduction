@@ -4,6 +4,6 @@ import { Component } from 'angular2/core';
 	selector: 'away',
 	template: `<h2>{{title}}</h2>`
 })
-export default class Away{ 
-	public title = "Away View!"
+export default class Away{
+    public title : string = "Away View!";
 }

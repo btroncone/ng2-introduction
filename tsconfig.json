@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES5",
+    "target": "es5",
     "module": "commonjs",
     "removeComments": true,
     "emitDecoratorMetadata": true,
@@ -8,9 +8,7 @@
     "sourceMap": true
   },
   "files": [
-    "src/app/app.ts",
-    "src/app/bootstrap.ts",
-    "src/vendor.ts"
+    "src/app/app.ts"
   ],
   "compileOnSave": false
 }
